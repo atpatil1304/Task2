@@ -1,7 +1,11 @@
 nav{
   display: flex;
   align-items: center;
-  background-color:rgb(92, 255, 80);
+  border:2px solid black;
+  border-radius: 20px;
+
+  /* background-color:rgb(92, 255, 80); */
+  background-color: rgba(240, 200, 200, 0.726);
   padding-left: 5%;
 }
 nav p{
@@ -12,12 +16,12 @@ nav p{
 nav button{
   width: 100px;
   font-size: 0.4rem;
-  font-weight: 250;
+  font-weight: 200;
   font-family: cursive;
   border-radius: 20px;
-  height: 30px;
-  background-color: rgb(127, 199, 244);
-  border: 2px solid black;
+  height: 25px;
+  background-color: rgb(190, 232, 178);
+  border: 1px solid black;
   margin-left: 800px;
 }
 nav button:hover{
