@@ -1,24 +1,24 @@
 nav{
   display: flex;
   align-items: center;
-  background-color:coral;
-  padding-left: 10%;
+  background-color:rgb(92, 255, 80);
+  padding-left: 5%;
 }
 nav p{
-  margin: 10px;
-  font-size: 1.4rem;
+  margin: 6px;
+  font-size: 0.8rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 nav button{
   width: 100px;
-  font-size: 1rem;
-  font-weight: 300;
+  font-size: 0.4rem;
+  font-weight: 250;
   font-family: cursive;
-  border-radius: 15px;
-  height: 33px;
-  background-color: rgb(255, 207, 182);
+  border-radius: 20px;
+  height: 30px;
+  background-color: rgb(127, 199, 244);
   border: 2px solid black;
-  margin-left: 30px;
+  margin-left: 800px;
 }
 nav button:hover{
   cursor: pointer;
@@ -32,9 +32,9 @@ nav button:hover{
     text-align: center;
 }
 #card{
-    width:300px;
+    width:160px;
     border: 2px solid black;
-    margin: 1rem;
+    margin: 2rem;
     padding: 5px;
     display: flex;
     flex-direction: column;
@@ -43,7 +43,7 @@ nav button:hover{
 }
 #name{
     font-weight: bolder;
-    font-size: 2rem;
+    font-size: 1rem;
     margin: 5px;
 }
 .lds-hourglass {

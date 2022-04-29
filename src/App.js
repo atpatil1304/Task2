@@ -31,10 +31,10 @@ class App extends Component{
     return(
       <div>
         <nav>
-          <p>Lets Upgrade</p>
-          <button onClick={() => this.handleEvent()}>Click Me!</button>
+          <p>Lets Grow More</p>
+          <button onClick={() => this.handleEvent()}>Click here</button>
         </nav>
-        <h1 id='heading'>Our Patners</h1>
+        <h1 id='heading'>Our Clients</h1>
         <div id='cards'>
           {this.fetching()}
         </div>
